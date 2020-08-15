@@ -18,6 +18,14 @@ Key interests include, offline capacity of the app and security. If time permits
 - Access control layers will also be introduced to further create a robust foolproof design
 
 --
+
+### ToDo:
+- Use Bootstraps Flexbox for better layouts
+- Use css grid if time permits
+- Improve styling
+ 
+
+--
 #### N.B. Due to the multiple folder structure, I have decided to build the back end and authentication on a separate project to enhance surfing through folders.
 
 

@@ -18,7 +18,7 @@ function BaseLayout({ children, miniHero = false }) {
         >
          Jude Kuti
         </a>
-        , August, 2020
+         &nbsp; &copy;2020
       </footer>
     </>
   )
