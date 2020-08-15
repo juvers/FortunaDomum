@@ -3,6 +3,7 @@ import {
     PropertyListingsProvider,
     PropertyListingsConsumer
   } from '../../context/PropertyListingsProvider';
+import Listing from '../../components/listing'
 
 import Hero from '../../components/hero'
 
@@ -16,7 +17,7 @@ function Home() {
                 {({ propertyListings }) => (
                     <ul>
                     {propertyListings.map(listing => (
-                        <li key={listing.id}>{listing.title}</li>
+                        <Listing key={listing.id} listing={listing} />
                     ))}
                     </ul>
                 )}

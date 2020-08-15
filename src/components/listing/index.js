@@ -19,7 +19,7 @@ function Listing({ listing }) {
         </div>
         <div className="card-header">
           <div className="card-title h5">{title}</div>
-          <div className="card-title h6">&pound; {price}</div>
+          <div className="card-title h6">${price}</div>
           <div className="card-subtitle text-gray">{address}</div>
         </div>
         <div className="card-body">{description}</div>
