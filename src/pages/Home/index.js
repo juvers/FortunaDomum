@@ -16,7 +16,7 @@ function Home() {
                 {({ propertyListings }) => (
                     <ul>
                     {propertyListings.map(listing => (
-                        <li>{listing.title}</li>
+                        <li key={listing.id}>{listing.title}</li>
                     ))}
                     </ul>
                 )}

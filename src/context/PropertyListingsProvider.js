@@ -8,7 +8,7 @@ const PropertyListingsContext = createContext(DefaultState)
 
 export const PropertyListingsConsumer = PropertyListingsContext.Consumer;
 
-export class PropertyListingsProvider extends React.Component {
+export class PropertyListingsProvider extends Component {
     state = DefaultState
   
     componentDidMount() {
