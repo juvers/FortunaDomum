@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import './index.css';
 // import App from './App';
 import * as serviceWorker from './serviceWorker';
@@ -8,12 +9,15 @@ import Home from './pages/Home';
 import Details from './pages/Details';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import 'spectre.css/dist/spectre.css';
+import NotFound from './pages/NotFound'
+
 
 ReactDOM.render(
-  <Router>
-    <Home default/>
-    <Details path="/details" />
-    </Router>,
+<Router>
+    <Home path="/" />
+    <Details path="/details/:propertyId" />
+    <NotFound default />
+  </Router>,
   document.getElementById('root')
 );
 

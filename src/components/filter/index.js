@@ -103,8 +103,8 @@ class Filter extends Component {
                       }
                     >
                       <option value="">Choose...</option>
-                      {postcodes.map(pc => (
-                        <option value={pc.toLowerCase()}>{pc}</option>
+                      {postcodes.map((pc, i) => (
+                        <option key={i} value={pc.toLowerCase()}>{pc}</option>
                       ))}
                     </select>
                   </div>
