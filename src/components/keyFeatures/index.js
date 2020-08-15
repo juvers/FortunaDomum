@@ -16,5 +16,4 @@ function KeyFeatures({ features }) {
     </>
   )
 }
-
 export default KeyFeatures
