@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
+import Map from './components/map';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Starter Page
-      </header>
+     <Map />
     </div>
   );
 }
