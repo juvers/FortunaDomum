@@ -127,8 +127,8 @@ class Filter extends Component {
                       }
                     >
                       <option value="">Choose...</option>
-                      {sortOrders.map(order => (
-                        <option value={getSortOrderValue(order)}>{order}</option>
+                      {sortOrders.map((order, i) => (
+                        <option key={i} value={getSortOrderValue(order)}>{order}</option>
                       ))}
                     </select>
                   </div>
