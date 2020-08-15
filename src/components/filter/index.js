@@ -28,6 +28,8 @@ class Filter extends Component {
                     type="number"
                     id="price-from"
                     placeholder="£1,000,000"
+                    value={this.state.priceFrom}
+                    onChange={event => this.setState({ priceFrom: Number(event.target.value) })}
                   />
                 </div>
               </div>
