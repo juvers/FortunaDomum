@@ -1,0 +1,8 @@
+.container {
+    max-width: 1200px;
+    background: #000;
+}
+
+.text-small {
+    font-size: small;
+}
