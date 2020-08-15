@@ -4,7 +4,7 @@ import classnames from 'classnames'
 import styles from './styles.module.css'
 
 function Hero({ miniHero }) {
-  const classes = classnames(styles.hero, 'hero', 'mb-3', {
+  const classes = classnames(styles.hero, 'hero', 'jumbotron', 'mb-3', {
     'hero-sm': miniHero,
     [styles.miniHero]: miniHero,
     'hero-lg': !miniHero
@@ -12,7 +12,7 @@ function Hero({ miniHero }) {
 
   return (
     <div className={classes}>
-      <div className="hero-body text-center text-light">
+      <div className="text-center text-light">
         <h1>Fortune Homes</h1>
         <p className="mb-0">Life is good living premium</p>
       </div>

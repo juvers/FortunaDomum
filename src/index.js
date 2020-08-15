@@ -6,6 +6,8 @@ import * as serviceWorker from './serviceWorker';
 import { Router } from '@reach/router';
 import Home from './pages/Home';
 import Details from './pages/Details';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'spectre.css/dist/spectre.css';
 
 ReactDOM.render(
   <Router>
