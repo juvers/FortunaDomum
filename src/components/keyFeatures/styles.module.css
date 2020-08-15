@@ -1,3 +1,12 @@
-.list {
-    text-align: left;
+.hero {
+    background-image: url('../../images/hero.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+@media screen and (min-width: 992px) {
+    .miniHero {
+        background-position-y: -150px;
+    }
 }

@@ -21,3 +21,4 @@ function Hero({ miniHero }) {
 }
 
 export default Hero
+
