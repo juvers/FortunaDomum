@@ -1,7 +1,8 @@
 import React, { createContext, Component } from 'react'
 
 const DefaultState = {
-    propertyListings: []
+  propertyListings: [],
+  filter: {}
 }
 
 const PropertyListingsContext = createContext(DefaultState)
@@ -34,3 +35,7 @@ export class PropertyListingsProvider extends Component {
       )
     }
   }
+
+
+
+
