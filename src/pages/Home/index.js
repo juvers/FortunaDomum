@@ -3,15 +3,17 @@ import {
     PropertyListingsProvider,
     PropertyListingsConsumer
   } from '../../context/PropertyListingsProvider';
-import Listing from '../../components/listing'
+import Listing from '../../components/listing';
+import Filter from '../../components/filter';
+import Hero from '../../components/hero';
 
-import Hero from '../../components/hero'
 
 function Home() {
   return(
     <>
     <Hero />
     <div className="container">
+    <Filter />
         <PropertyListingsProvider>
             <PropertyListingsConsumer>
                 {({ propertyListings }) => (
