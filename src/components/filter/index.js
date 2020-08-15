@@ -94,7 +94,7 @@ class Filter extends Component {
                     </label>
                   </div>
                   <div className="col-9 col-sm-12">
-                    {/* <select
+                    <select
                       className="form-select"
                       id="postcode"
                       value={postcode}
@@ -106,7 +106,7 @@ class Filter extends Component {
                       {postcodes.map(pc => (
                         <option value={pc.toLowerCase()}>{pc}</option>
                       ))}
-                    </select> */}
+                    </select>
                   </div>
                 </div>
               </div>
