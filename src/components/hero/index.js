@@ -13,8 +13,8 @@ function Hero({ miniHero }) {
   return (
     <div className={classes}>
       <div className="hero-body text-center text-light">
-        <h1>Premium Property Finder</h1>
-        <p className="mb-0">Bringing premium property right to your finger tips</p>
+        <h1>Fortune Homes</h1>
+        <p className="mb-0">Life is good living premium</p>
       </div>
     </div>
   )
