@@ -12,7 +12,7 @@ export class PropertyListingsProvider extends React.Component {
     state = DefaultState
   
     componentDidMount() {
-      fetch('http://localhost:3000/data')
+      fetch('http://localhost:3008/data')
         .then(res => res.json())
         .then(res => {
           this.setState({ propertyListings: res })
