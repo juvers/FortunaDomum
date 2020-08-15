@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
+import styles from './styles.module.css';
+
 
 function KeyFeatures({ features }) {
   return (
     <>
       <p className="text-bold">Key Features</p>
-      <ul className="mt-0 mb-0">
+      <ul className={styles.list}>
         {features.map(feature => (
           <li key={feature}>
             <small>{feature}</small>
