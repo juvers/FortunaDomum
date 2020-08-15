@@ -19,6 +19,12 @@ export class PropertyListingsProvider extends Component {
           this.setState({ propertyListings: res })
         })
     }
+
+    updateFilter = filter => {
+        this.setState({
+            filter
+        })
+    }
   
     render() {
       const { children } = this.props
