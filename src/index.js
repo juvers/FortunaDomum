@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import * as serviceWorker from './serviceWorker';
-import { Router } from '@reach/router'
+import { Router } from '@reach/router';
+import Home from './pages/Home';
+import Details from './pages/Details';
 
 ReactDOM.render(
   <Router>
-    <App default/>
+    <Home default/>
+    <Details path="/details" />
     </Router>,
   document.getElementById('root')
 );
