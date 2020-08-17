@@ -23,7 +23,7 @@ function Listing({ listing }) {
         <div className="card-header">
           <div className="card-title h5">{title}</div>
           <div className="card-title h6">
-            &pound;
+            &#36;
             {asCurrency(price)}
           </div>
           <div className="card-subtitle text-gray">{address}</div>
