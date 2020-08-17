@@ -30,7 +30,7 @@ function Listing({ listing }) {
         </div>
         <div className="card-body">{description}</div>
         <div className="card-footer">
-          <Link className="btn btn-primary" to={`/details/${id}`}>
+          <Link className="btn btn-info" to={`/details/${id}`}>
             Go to property
           </Link>
         </div>

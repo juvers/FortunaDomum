@@ -27,7 +27,7 @@ function PropertyDetails({ listing }) {
           <h5 className={priceClasses}>
             <small>Priced from</small>
             <br />
-            &pound;
+            &#36;
             {asCurrency(price)}
           </h5>
         </div>

@@ -33,12 +33,12 @@ class Filter extends Component {
 
   render() {
     const containerClasses = classnames('container', 'mb-1', styles.container)
-    const formClasses = classnames('form-horizontal', styles.form)
+    const formClasses = classnames('form-horizontal', styles.form, 'px-2')
     const { priceFrom, postcode, sortOrder, sortOrders } = this.state
     const { postcodes, count, updateFilter } = this.props
 
     return (
-      <aside className="mt-2">
+      <aside className="mt-2 pt-2">
         <div className={containerClasses}>
           <h2 data-cy="property-count">
             {`${count} private ${getPropertiesDisplayText(count)} for sale`}
@@ -48,7 +48,7 @@ class Filter extends Component {
             className={formClasses}
             noValidate
           >
-            <p className="mb-1">
+            <p className="m-2">
               Refine your results
               <button
                 data-cy="clear-button"
@@ -77,7 +77,7 @@ class Filter extends Component {
                       max="10000000"
                       type="number"
                       id="price-from"
-                      placeholder="£1,000,000"
+                      placeholder="$1,000,000"
                       value={priceFrom}
                       onChange={event =>
                         this.handleChange('priceFrom', Number(event.target.value))

@@ -24,7 +24,7 @@ function Home() {
                     .map(listing => listing.postcode.split(' ')[0])
                     .filter((item, i, arr) => arr.indexOf(item) === i)}
                 />
-                <div className="columns">
+                <div className="columns" style={{'display': 'flex'}}>
                   {propertyListings.map((listing, i) => (
                     <Listing key={i} listing={listing} />
                   ))}
